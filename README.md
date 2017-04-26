@@ -1,4 +1,4 @@
-# location-search
+# href-search
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]

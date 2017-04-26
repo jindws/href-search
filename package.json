@@ -12,11 +12,9 @@
   "scripts": {
     "build": "nwb build-web-module",
     "clean": "nwb clean-module",
-    "test": "nwb test",
+    "test": "nwb build-web-module",
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
-  },
-  "dependencies": {
   },
   "devDependencies": {
     "nwb": "0.15.x"
