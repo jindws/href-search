@@ -1,10 +1,9 @@
 // import expect from 'expect'
-//
-// import message from 'src/index'
-//
-// describe('Module template', () => {
-//   it('displays a welcome message', () => {
-//     expect(message).toContain('Welcome to location-search')
-//   })
-// })
-alert(1)
+import assert from 'assert'
+
+import Hsearch from 'src/index'
+describe('本地测试', () => {
+  it('输入内容', () => {
+    assert.equal('10',Hsearch('m','m=10'))
+  })
+})

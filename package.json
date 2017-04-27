@@ -1,7 +1,7 @@
 {
-  "name": "location-search",
+  "name": "href-search",
   "version": "1.0.0",
-  "description": "Describe location-search here",
+  "description": "Describe href-search here",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -12,7 +12,7 @@
   "scripts": {
     "build": "nwb build-web-module",
     "clean": "nwb clean-module",
-    "test": "nwb build-web-module",
+    "test": "nwb test",
     "test:coverage": "nwb test --coverage",
     "test:watch": "nwb test --server"
   },
