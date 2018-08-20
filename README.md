@@ -7,3 +7,10 @@
 `import Hsearch from 'href-search'`
 
 `const id = Hsearch('id');`
+
+---
+`const name= Hsearch('name','id=1&name=2')`
+
+
+---
+> 结合 URLSearchParams

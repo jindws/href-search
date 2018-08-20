@@ -1,26 +1,36 @@
 {
-  "name": "href-search",
-  "version": "1.0.0",
-  "description": "Describe href-search here",
-  "main": "lib/index.js",
-  "module": "es/index.js",
-  "files": [
-    "es",
-    "lib",
-    "umd"
-  ],
-  "scripts": {
-    "build": "nwb build-web-module",
-    "clean": "nwb clean-module",
-    "test": "nwb test",
-    "test:coverage": "nwb test --coverage",
-    "test:watch": "nwb test --server"
-  },
-  "devDependencies": {
-    "nwb": "0.15.x"
-  },
-  "author": "",
-  "homepage": "",
-  "license": "MIT",
-  "repository": ""
+    "name": "href-search",
+    "version": "1.0.3",
+    "description": "Describe href-search here",
+    "main": "lib/index.js",
+    "module": "es/index.js",
+    "files": [
+        "es",
+        "lib",
+        "umd"
+    ],
+    "scripts": {
+        "build": "nwb build-web-module",
+        "clean": "nwb clean-module",
+        "test": "nwb test",
+        "test:coverage": "nwb test --coverage",
+        "test:watch": "nwb test --server"
+    },
+    "devDependencies": {
+        "nwb": "0.15.x"
+    },
+    "author": "",
+    "homepage": "https://github.com/moiamoia/href-search#readme",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moiamoia/href-search.git"
+    },
+    "directories": {
+        "test": "tests"
+    },
+    "dependencies": {},
+    "bugs": {
+        "url": "https://github.com/moiamoia/href-search/issues"
+    }
 }
